@@ -5,7 +5,7 @@ Das Projekt demonstriert sowohl Hardware-Ansteuerung als auch eine saubere, zust
 
 ---
 
-## 🧠 Konzept
+## Konzept
 
 Das System arbeitet mit vier klar definierten Zuständen:
 
@@ -20,7 +20,7 @@ Die Steuerung erfolgt über physische Schalter (Start, Tauen, Schmelzen, Zeitwah
 
 ---
 
-## ⚙️ Hardwareanforderungen
+## Hardwareanforderungen
 
 - Arduino-kompatibles Board (Uno, Nano, Mega)
 - **OneWire-Temperatursensor** (z. B. DS18B20)
@@ -46,7 +46,7 @@ Die Steuerung erfolgt über physische Schalter (Start, Tauen, Schmelzen, Zeitwah
 
 ---
 
-## 🧩 Softwarestruktur
+## Softwarestruktur
 
 Das Projekt ist modular aufgebaut. Jeder `.ino`-Sketch repräsentiert einen Betriebsmodus:
 
@@ -61,7 +61,7 @@ Hilfsfunktionen wie `temperatur()`, `DoControl()` und `heizen()` übernehmen Sen
 
 ---
 
-## 🔬 Technische Details
+## Technische Details
 
 - Bibliotheken:  
   ```cpp
@@ -74,7 +74,7 @@ Hilfsfunktionen wie `temperatur()`, `DoControl()` und `heizen()` übernehmen Sen
 
 ---
 
-## 🚀 Installation & Nutzung
+## Installation & Nutzung
 
 1. Projekt in der **Arduino IDE** öffnen.  
 2. Board und Port auswählen.  
@@ -86,24 +86,12 @@ Hilfsfunktionen wie `temperatur()`, `DoControl()` und `heizen()` übernehmen Sen
 
 ---
 
-## 💡 Erweiterungsideen
+## Erweiterungsideen
 
 - OLED-Display oder LCD-Statusanzeige  
 - EEPROM-Speicherung der letzten Solltemperatur  
 - PID-Regler statt einfacher Zweipunktregelung  
 - Logging von Temperaturverlauf über UART oder SD-Karte  
-
----
-
-## 👨‍💻 Über das Projekt
-
-Dieses Projekt zeigt:
-- Verständnis für **Embedded-Systeme** und **Hardware-Programmierung**
-- saubere **Zustandslogik (State Machine)**
-- sichere **Sensor- und Aktoransteuerung**
-- strukturierten Code mit klarer Trennung nach Betriebsarten
-
-Ideal als Referenz für Embedded-/IoT-Interesse in Bewerbungen.
 
 ---
 

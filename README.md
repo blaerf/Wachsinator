@@ -95,6 +95,6 @@ Hilfsfunktionen wie `temperatur()`, `DoControl()` und `heizen()` übernehmen Sen
 
 ---
 
-## 🧾 Lizenz
+## Lizenz
 
 MIT License – frei verwendbar mit Namensnennung.
